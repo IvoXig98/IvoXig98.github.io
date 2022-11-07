@@ -1,0 +1,151 @@
+body{
+  font-family: Roboto, arial;
+  margin-bottom: 300px;
+  background: antiquewhite;
+}
+
+p{
+color: rgb(177, 163, 163);
+}
+
+.intro{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.intro-2{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: auto;
+  text-align: justify;
+  border-radius: 100px;
+}
+
+.box{
+ padding: 30px;
+ position: relative;
+ flex: 1;
+ max-width: 100%;
+ text-align: center;
+ box-sizing: border-box;
+}
+
+.title{
+ width: 500px;
+ margin-left: 450px;
+ font-weight: 400;
+ display: flex;
+ justify-content: center;
+}
+
+
+.pic{
+display: flex;
+justify-content: center;
+
+}
+
+.propic{
+  height: 200px;
+  border-radius: 2000px;
+}
+
+h1{
+  color: rgb(248, 58, 65);
+  font-size: 700;
+}
+
+.text{
+  word-wrap: break-word;
+  position: relative;
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media only screen and (min-width:820px) {
+ .intro, .intro-2 {
+    width: 100%;
+    padding: 0;
+  }
+
+}
+@media only screen and (min-width:360px) {
+ .intro, .intro-2 {
+    width: 80%;
+    padding: 0px;
+  }
+  }
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.dropdown {
+  position: 0;
+  z-index: 10;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+button{
+  
+  display: block;
+  width: 100px!important;
+  height: 50px;
+  margin: 20px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 25px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  border: 2px solid #000000;
+  transition: 0.5s;
+}

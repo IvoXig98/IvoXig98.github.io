@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Contattami</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">
+      <img src="images/hamburger-menu.svg" class="menu">
+    </button>
+    <div class="dropdown-content">
+    <a href="about.html">About Me</a>
+    <a href="https://github.com/IvoXig98" target="_blank">GitHub</a>
+    <a href="https://www.facebook.com/giovanni.formicola.7/" target="_blank">
+      <img class="facebook-icon" src="images/Facebook_logo.png" alt="">
+    </a>
+    <a href="https://instagram.com/giovi_1998/" target="_blank">
+      <img class="instagram-icon" src="images/Instagram-Icon.png">
+    </a>
+    <a href="form.html" target="_blank">
+      <img class="gmail-icon" src="images/Gmail_icon.png" alt="">
+    </a>
+    </div>
+  </div>
+  <div class="container">
+    <h1 class="title-form">Contattami!</h1>
+    <form target="_blank" action="https://formsubmit.co/gformicola2911@gmail.com" method="POST">
+      <div class="form-group">
+        <div class="fields">
+          <div class="col">
+            <input type="text" name="name" class="form-control1" placeholder="Nome" required>
+          </div>
+          <div class="col">
+            <input type="email" name="email" class="form-control1" placeholder="Indirizzo Email" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="scrivi" class="form-control2" name="message" rows="10" required></textarea>
+      </div>
+      <button type="submit" class="">Invia</button>
+    </form>
+  </div>
+</body>
+</html>

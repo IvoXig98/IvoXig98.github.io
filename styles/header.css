@@ -1,0 +1,9 @@
+
+.facebook-icon,
+.instagram-icon,
+.gmail-icon, 
+.menu {
+  border-radius: 5px;
+  width: 25px;
+  cursor: pointer;
+}
